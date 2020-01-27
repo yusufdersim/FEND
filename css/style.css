@@ -6,13 +6,16 @@ h4,h1, footer{
   color: white;
 }
 
-.contact{
+.contact .container-contact{
 
   box-sizing: border-box;
   align-items: center;
 
 }
-.container{
+.contact{
+  margin: 50 50;
+}
+.container {
   width: 500px;
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -25,9 +28,9 @@ h4,h1, footer{
   margin: auto;
 }
 
-list{
+/*list{
   color: red;
-}
+}*/
 
 p em{
   color:black;
@@ -42,25 +45,43 @@ a:hover{
   cursor: pointer;
 
 }
-ul {
+.Kathmandu{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.Nepal{
+  background-color: grey;
+  border-bottom: 2px solid pink;
+  border-right: 2px solid pink;
+  width: 400px;
+  box-shadow: 4px 4px 5px #888888
+}
+img{
+  margin: 10px;
+  transition: all 1s;
+}
+img:hover{
+  transform: scale(1.1);
+
+}
+/*ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 150px;
-  background-color: #f1f1f1;}
+  }*/
 
-.side-bar{
-  border: 5px;
-  width: 75px;
+.side-bar li{
+  display: inline-block;
 }
-img[src]{
+/*img[src]{
   border-radius: 50%;
 
   margin:0 0;
-}
-.Food{
-  border-radius: 50px;
-}
+}*/
+
 
 
 
@@ -85,8 +106,8 @@ footer p text-center{
 }
 .container-contact{
   border: solid;
-
-  width:200vh;
+  text-align: center;
+  width:50vh;
 }
 .container{
   border: solid;
@@ -95,7 +116,7 @@ footer p text-center{
   flex-wrap: wrap;
   align-items: stretch;
   height: 100vh;
-  width: 200vh;
+  width: 100vh;
   justify-content: space-between;
 }
 
